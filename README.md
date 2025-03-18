@@ -25,12 +25,16 @@ pip install langchain_core langchain_ollama langgraph duckduckgo_search langsmit
 
 - The process repeats, with the summary being iteratively updated with new information from web search
 
+![flow](images/flow.png)
+
 ## Usage
 Run the notebook to:
 1. Set up the LLM and search tools.
 2. Generate a research query.
 3. Fetch and process web search results.
 4. Deduplicate and format extracted data.
+
+![output](images/output.png)
 
 ## Customization
 - Modify `max_web_research_loops` for search depth.
